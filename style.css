@@ -25,7 +25,7 @@
 .site-header {
 	position: relative;
 	height: 180px;
-	overflow: hidden;;
+	overflow: hidden;
 	  overflow-x: hidden;
 	  overflow-y: hidden;	  
 }
@@ -48,6 +48,16 @@
 	background: linear-gradient(rgba(14,174,226,0.55), rgba(14,174,226,0)); /* Standard syntax */	
 }
 
+.site-title {
+	letter-spacing: 1.5px;
+	margin-left: 175px;
+	margin-top: 60px;
+	padding: 0;
+	color: #fff;
+	font: bold 50px/60px 'Vollkorn', serif;
+	text-transform: uppercase;
+}
+
 #logo {
 	position: absolute;
 	top: 8px;
@@ -62,5 +72,78 @@
 	width: 100%;
 }
 
+ul {
+	list-style-type: none;
+	margin-top: 20px;
+	margin-left: 350px;
+	padding: 0;
+	overflow: hidden;
+}
 
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 30px;
+	font: 20px/28px 'Vollkorn', serif;
+	text-decoration: none;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+li a:hover {
+	text-color: #111;
+}
+
+#sidebar {
+	position: absolute;
+	display: block;
+	top: 180px;
+	bottom: 0px;
+	width: 350px;
+	background-color: F2F2F2;
+}
+
+.sidebar-title-block {
+	position: relative;
+	display: block;
+	padding: 10px;
+	padding-bottom: 2px;
+	font: 36px/40px 'Vollkorn', serif;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.sidebar-title-text {
+	position: relative;
+	display: block;
+	padding: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font: 14px/18px 'Ubuntu', sans-serif;
+	color: #333;
+	text-align: justify;
+}
+
+.sidebar-text-block {
+	position: relative;
+	display: block;
+	top: 375px;
+	height: 0;
+}
+
+.sidebar-text {
+	position: relative;
+	display: block;
+	padding: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font: 14px/18px 'Ubuntu', sans-serif;
+	color: #333;
+	text-align: justify;
+}
 

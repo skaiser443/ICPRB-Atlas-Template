@@ -12,5 +12,5 @@ var map = new mapboxgl.Map({
 	zoom: 7.45,
 	attributionControl: {
 		position: 'bottom-right'
-	}
+	},
 });

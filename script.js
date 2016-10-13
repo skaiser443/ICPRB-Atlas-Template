@@ -14,3 +14,7 @@ var map = new mapboxgl.Map({
 		position: 'bottom-right'
 	},
 });
+
+map.addControl(new mapboxgl.Geocoder({position: 'top-right'}));
+map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
+

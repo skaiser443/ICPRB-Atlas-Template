@@ -42,10 +42,10 @@
 	top: 0px;
 	height: 180px;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(14,174,226,0.55), rgba(14,174,226,0)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(rgba(14,174,226,0.55), rgba(14,174,226,0)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(rgba(14,174,226,0.55), rgba(14,174,226,0)); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(rgba(14,174,226,0.55), rgba(14,174,226,0)); /* Standard syntax */	
+	background: -webkit-linear-gradient(rgba(8,98,127,0.65), rgba(8,98,127,0)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(8,98,127,0.65), rgba(8,98,127,0)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(8,98,127,0.65), rgba(8,98,127,0)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(8,98,127,0.65), rgba(8,98,127,0)); /* Standard syntax */	
 }
 
 .site-title {
@@ -168,10 +168,17 @@ li a:hover {
 	top: 300px;
 	width: 350px;
 	height: 320px;
-	background-color: #fff;
 }
 
 /* Insert radio style here */
+
+.control-group-text {
+	position: absolute;
+	display: block;
+	top: 50px;
+	margin-left: 50px;
+	cursor: pointer;
+}
 
 
 

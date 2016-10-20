@@ -73,6 +73,34 @@
 	font: italic 16px/20px 'Vollkorn', serif;
 }
 
+.social-fb {
+	position: relative;
+	float: right;
+	top: -18px;
+	right: 175px;
+}
+
+.social-linkedin {
+	position: relative;
+	float: right;
+	top: -18px;
+	right: 130px;
+}
+
+.social-twitter {
+	position: relative;
+	float: right;
+	top: -15px;
+	right: 85px;
+}
+
+.social-insta {
+	position: relative;
+	float: right;
+	top: -18px;
+	right: 40px;
+}
+
 #logo {
 	position: absolute;
 	top: 8px;
@@ -179,6 +207,7 @@ li a:hover {
 	margin-left: 50px;
 	cursor: pointer;
 }
+
 
 
 

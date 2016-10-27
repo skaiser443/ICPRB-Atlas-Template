@@ -203,7 +203,6 @@ li a:hover {
 	height: 100%;
 }
 
-
 /* For desktop */
 .col-1 {width: 12.5%;}
 .col-2 {width: 25%;}
@@ -214,7 +213,20 @@ li a:hover {
 .col-7 {width: 87.5%;}
 .col-8 {width: 100%;}
 
-
+#map-info {
+    display: block;
+    position: relative;
+	float: right;
+    margin: 0px auto;
+	top: -25px;
+	right: 12.5%;
+	width: 40%;
+	height: 0;
+    font: 10px 'Ubuntu' sans-serif;
+    text-align: center;
+    color: #333;
+    background: rgba(0,0,0,0);
+}
 
 @media only screen and (max-width: 860px) {
 	/* For mobile phones: */

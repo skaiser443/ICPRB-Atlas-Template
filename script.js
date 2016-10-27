@@ -15,6 +15,11 @@ var map = new mapboxgl.Map({
 	minZoom: [7.0],
 });
 
+map.on('mousemove', function (e) {
+	document.getElementById('map-info').innerHTML =
+		JSON.stringify(e.lngLat);
+});
+
 map.addControl(new mapboxgl.Geocoder({position: 'top-right'}));
 map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
 
